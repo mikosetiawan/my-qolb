@@ -64,6 +64,7 @@ class _DetailSuratPagesState extends State<DetailSuratPages> {
       });
     } catch (e) {
       ScaffoldMessenger.of(
+        // ignore: use_build_context_synchronously
         context,
       ).showSnackBar(const SnackBar(content: Text("Gagal memutar audio")));
     }

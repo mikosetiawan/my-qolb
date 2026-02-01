@@ -81,6 +81,7 @@ class AlMasuratPages extends StatelessWidget {
                                 decoration: BoxDecoration(
                                   color: const Color(
                                     0xFF588B76,
+                                    // ignore: deprecated_member_use
                                   ).withOpacity(0.1),
                                   borderRadius: BorderRadius.circular(10),
                                 ),

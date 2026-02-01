@@ -40,8 +40,6 @@ dependencies:
   flutter_launcher_icons: ^0.14.4
   audioplayers: ^6.5.1
   intl: ^0.20.2
-  geolocator: ^14.0.2
-  geocoding: ^4.0.0
 
 dev_dependencies:
   flutter_test:
