@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:my_qolb/pages/surat_pages.dart';
+import 'package:my_qolb/pages/home_pages.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({super.key});
@@ -19,7 +19,9 @@ class _SplashScreenState extends State<SplashScreen> {
       if (!mounted) return;
       Navigator.pushReplacement(
         context,
-        MaterialPageRoute(builder: (context) => SuratPages()),
+        MaterialPageRoute(
+          builder: (context) => const HomePages(),
+        ), // Ganti ke HomePages
       );
     });
   }
