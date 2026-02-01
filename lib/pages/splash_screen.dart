@@ -49,7 +49,7 @@ class _SplashScreenState extends State<SplashScreen> {
               ),
             ),
             Text(
-              "by: mikodev",
+              "by: growdiginusantara",
               style: GoogleFonts.poppins(
                 color: Colors.white,
                 decoration: TextDecoration.none,
